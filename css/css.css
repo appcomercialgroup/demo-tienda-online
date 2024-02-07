@@ -44,22 +44,24 @@
 	font-weight: bold;
 }
 
-/*#codemodal {
-	width: 75%;
-	height: 300px;
-	position: absolute;
+#codemodal {
+	z-index: 100;
+	/*		width: 75%;*/
+	/*	height: 300px;*/
+	/*	position: absolute;
 	left: 50%;
 	top: 50%;
 	margin-left: 50%;
-	margin-top: 50%;
+	margin-top: 50%;*/
 	background-color: transparent !important;
-}*/
+}
 
 .codemodal {
-	margin-top: 50%;
+	/*	margin-top: 15%;*/
 	height: 100px;
-	/*	margin: auto;*/
-	/*	width: 50%;*/
+	/*	margin: auto;
+
+/*	width: 50%;*/
 	/*	position: relative;*/
 	/*	left: 25%;*/
 	/*	top: 50%;*/
@@ -70,5 +72,5 @@
 .codecuerpo {
 	text-align: center;
 	margin-top: 25px;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }

@@ -13,6 +13,7 @@ let codemodal = document.getElementById("codemodal");
 let codemodalccion = document.querySelectorAll(".codemodalccion");
 
 for (var i = 0; i < codemodalccion.length; i++) {
+
 	codemodalccion[i].addEventListener("click", function (argument) {
 		// body...
 		argument.preventDefault();
