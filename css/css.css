@@ -39,3 +39,36 @@
 	box-sizing: border-box;
 	margin-right: 20px;
 }
+
+.testodelboton {
+	font-weight: bold;
+}
+
+/*#codemodal {
+	width: 75%;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: 50%;
+	margin-top: 50%;
+	background-color: transparent !important;
+}*/
+
+.codemodal {
+	margin-top: 70%;
+	height: 100px;
+	/*	margin: auto;*/
+	/*	width: 50%;*/
+	/*	position: relative;*/
+	/*	left: 25%;*/
+	/*	top: 50%;*/
+	/*	border: 3px solid green;
+	padding: 10px;*/
+}
+
+.codecuerpo {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}

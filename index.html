@@ -125,17 +125,17 @@
 							<div class="list-menu">
 								<ul>
 									<li>
-										<a href="index.html">
+										<a class="codemodalccion" href="index.html">
 											Comprar
 										</a>
 									</li>
 									<li>
-										<a href="product-detail.html">
+										<a class="codemodalccion" href="product-detail.html">
 											Detalles
 										</a>
 									</li>
 									<li>
-										<a href="contact.html">
+										<a class="codemodalccion" href="contact.html">
 											Contacto
 										</a>
 									</li>
@@ -845,40 +845,25 @@
 				</div>
 			</div>
 		</footer>
-		<div class="code-modal">
-			<!-- partial:index.partial.html -->
-			<div class="modal-frame">
-				<div class="modal">
-					<div class="modal-inset">
-						<div class="button close">
-							<i class="fa fa-close">
-							</i>
-						</div>
-						<div class="modal-body">
-							<h3>
-								Such Modal, Much Animate!
-							</h3>
-							<p>
-								Nothing groundbreaking, but I hope you enjoyed
-								<br/>
-								the physics for the open/close animation =).
-							</p>
-							<p class="ps">
-								**I know the SASS is a bit messy, I did this on the fly and for fun
-								<br/>
-								and w.e. I DO WHAT I WANT!!
-							</p>
-						</div>
-					</div>
+		<div id="codemodal" class="w3-modal">
+			<div class="w3-modal-content w3-animate-opacity w3-card-4 codemodal">
+				<header class="w3-container">
+					<span onclick="document.getElementById('codemodal').style.display='none'"  class="w3-button w3-display-topright w3-red">
+						&times;
+					</span>
+					<!--	<h2>	Modal Header	</h2> -->
+				</header>
+				<div class="w3-container codecuerpo">
+					<p>
+						Has presionado el botón
+						<span class="testodelboton">
+						</span>
+					</p>
 				</div>
+				<!--	<footer class="w3-container">	<p>	Modal Footer	</p>	</footer> -->
 			</div>
-			<div class="modal-overlay">
-			</div>
-			<!-- <button class="fancy-btn open">
-						Can I haz Modal?
-					</button> -->
-			<!-- partial -->
 		</div>
+		<!-- <div class="code-modal">	<div class="modal-frame">	<div class="modal">	<div class="modal-inset">	<div class="button close">	<i class="fa fa-close">	</i>	</div>	<div class="modal-body">	<h3>	Such Modal, Much Animate!	</h3>	<p>	Nothing groundbreaking, but I hope you enjoyed	<br/>	the physics for the open/close animation =).	</p>	<p class="ps">	**I know the SASS is a bit messy, I did this on the fly and for fun	<br/>	and w.e. I DO WHAT I WANT!!	</p>	</div>	</div>	</div>	</div>	<div class="modal-overlay">	</div>	<button class="fancy-btn open">	Can I haz Modal?	</button>	</div> -->
 		<script src="./js/vendor/jquery-1.10.1.min.js"></script>
 		<script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 		<script src="./js/jquery.easing-1.3.js"></script>
@@ -886,9 +871,11 @@
 		<script src="./js/plugins.js"></script>
 		<script src="./js/main.js"></script>
 		<script type="text/javascript" src="./js/js/js.js"></script>
-		<!-- Modal -->
-		<!-- <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-				<script  src="./script.js">
-				</script> -->
-	</body>
+		<!-- Modal -->	<!--
+		<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+		</script>
+		<script src="./script.js">
+		</script>
+	-->
+</body>
 </html>
