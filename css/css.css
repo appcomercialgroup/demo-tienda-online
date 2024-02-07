@@ -5,3 +5,37 @@
 	/*	margin: 0px 10px -20px 10px;*/
 	/*	position: relative;*/
 }
+
+.capa-samsung-magnetica {
+	height: 300px !important;
+}
+
+.seccion-de-tres img {
+	height: 400px !important;
+}
+
+.seccion-de-cuatro img {
+	height: 250px !important;
+}
+
+.code-titulo a {
+	font-size: 30px;
+}
+
+#owl-demo img {
+	height: 100px;
+}
+
+.code-nota {
+	box-sizing: border-box;
+	margin: 10px 50px 0px 50px;
+	/*	height: 150px;*/
+	display: none;
+}
+
+.code-nota h2 {
+	font-size: 17px;
+	color: black;
+	box-sizing: border-box;
+	margin-right: 20px;
+}
