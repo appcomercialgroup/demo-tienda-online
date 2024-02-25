@@ -8,3 +8,4 @@ Visite Kool Store Template [aquí](http://www.templatemo.com/preview/templatemo_
 PLantilla editada [aquí](https://appcomercialgroup.github.io/templatemo_428_web_tienda_en_linea/)
 
 <!-- https://appcomercialgroup.github.io/templatemo_428_web_tienda_en_linea/ -->
+<!-- https://appcomercialgroup.github.io/demo-tienda-online/ -->
